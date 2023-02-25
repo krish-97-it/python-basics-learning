@@ -87,8 +87,12 @@ print("list are now empty", list1)
 # Delete entire list using "del" keyword
 del list1
 
+# Maximum and minimum elemnt using max and min function
+list_sort = [11,80,10,16,4,110,1]
+print(max(list_sort))
+print(min(list_sort))
 
-#               ******************************* Assignments **********************************
+#  ******************************* Assignments **********************************
 
 # 1. *******-[ Write a program to input elements into a list and display the list ]-*******
 list_one = []    # creating an empty list
@@ -133,7 +137,7 @@ if len(duplicate) >= 1:
 else:
     print("no duplicate elements")
 
-# 5. *******-[ Write a program to find maximum and minimum number in the list ]-********
+# 5. *******-[ Write a program to find maximum and minimum number in the list without max and min function ]-********
 max_num = list_one[0]
 min_num = list_one[0]
 for i in range(0, len(list_one)):
