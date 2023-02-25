@@ -3,6 +3,7 @@ list1 = ["Ram", 20, "Hooghly", 8899774455]
 # A Tuple->
 tuple1 = ("Ram", 20, "Hooghly", 8899774455)
 
+#  ****************** Defination of Dictionary in Python *******************
 #  1. dictionary is always declare in curly braces.
 #  2. it consists two things one is key and another is value of that key
 #  3. we can put string, number, symbol, boolean, a tuple or list or  a dictionary itself as a value of a key.
@@ -86,7 +87,7 @@ for x, y in dictionary2.items():
     print(x, y)
 
 
-# ************************ User defined dictionary ***********************
+# ************************ User defined dictionary with example ***********************
 
 # ********* Program-1 **********
 input_dict = {}  # new blank dictionary
