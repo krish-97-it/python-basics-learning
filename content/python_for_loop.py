@@ -3,7 +3,6 @@
 
 # ***** Syntax *****
 # for i in range(a,b,c):
-#   // do code...
 # Here a is starting point, b is limit or length or iteration of the loop, c is the increment value.
 # range() function returns a sequence of numbers, starting from 0 by default, and increments by 1.
 # range() requires minimum one parameter that is length.
